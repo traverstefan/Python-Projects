@@ -48,7 +48,7 @@ while 1:
     print("1. Convert temperature")
     print("2. Convert volume")
     print("3. Convert lengths")
-    print("4. Man, I'm done with this S%@#!")
+    print("4. I'm finished!")
     choice = int(input("Enter your choice: "))
     if choice == 1:
         convert_temperature()
@@ -57,6 +57,6 @@ while 1:
     elif choice == 3:
         convert_lengths()
     elif choice == 4:
-        print('We out...')
+        print('Done!')
         exit(0)
         
